@@ -33,4 +33,4 @@ body:
     attributes:
       label: "Plan Your Day"
       description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
-      value: "== Early Morning ==\nPlanning (8AM to 8:10AM)\nDeep Work (8:10AM to 9:50AM)\nShallow Work (9:50AM to 10AM)\n==================\n\n== Mid Morning ==\nStandup (10AM to 10:15AM)\nCoffee/Tea (10:15AM to 10:20AM)\nDeep Work (10:20AM to 12:20PM)\n==================\n\n==\nLunch (12:20PM to 12:50PM)\n==\n\n== Afternoon ==\nShallow Work (12:50PM to 1PM)\nDeep Work (1PM to 3PM)\nMeeting & Shallow Work Buffer (3PM to 3:45PM)\n==================\n\n== Late Afternoon ==\nShutdown (3:45PM to 4PM)\nLog off (4PM)\n===================="
+      value: "[Early Morning]\nPlanning (8AM to 8:10AM)\nDeep Work (8:10AM to 9:50AM)\nShallow Work (9:50AM to 10AM)\n\n\n[Mid Morning]\nStandup (10AM to 10:15AM)\nCoffee/Tea (10:15AM to 10:20AM)\nDeep Work (10:20AM to 12:20PM)\n\n\n[Lunch (12:20PM-12:50PM)]\n\n[Afternoon]\nShallow Work (12:50PM to 1PM)\nDeep Work (1PM to 3PM)\nMeeting & Shallow Work Buffer (3PM to 3:45PM)\n\n\n[Late Afternoon]\nShutdown (3:45PM to 4PM)\nLog off (4PM)\n"

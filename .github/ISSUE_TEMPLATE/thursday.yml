@@ -33,7 +33,7 @@ body:
   attributes:
     label: "Plan Your Day"
     description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
-    value: "== Early Morning ==\nPlanning (7:45AM to 7:50AM)\nDeep Work (7:50AM-9AM)\nZ2 Run (9AM - 9:50AM)\nShallow Work (9:50AM-10AM)\n==================\n\n== Mid Morning ==\nStandup (10AM-10:15AM)\nGo-Le Flo Cafe (10:15AM-10:25AM)\nDeep Work (10:25AM - 12:25PM)\nWalk back-Bris (12:25PM-12:35PM)\n==================\n\n==\nLunch - Drive back to Albert Park (12:35PM-1:05PM)\n==\n\n== Afternoon ==\nShallow Work and Eat Lunch (1:05PM-1:25PM)\nDeep Work (1:25PM-3:25PM)\nMeeting & Shallow Work Buffer (3:25PM-3:45PM)\n================\n\n== Late Afternoon ==\nShutdown (3:45PM-4PM)\nLog off (4PM)\n===================="
+    value: "[Early Morning]\nPlanning (7:45AM to 7:50AM)\nDeep Work (7:50AM-9AM)\nZ2 Run (9AM - 9:50AM)\nShallow Work (9:50AM-10AM)\n\n\n[Mid Morning]\nStandup (10AM-10:15AM)\nGo-Le Flo Cafe (10:15AM-10:25AM)\nDeep Work (10:25AM - 12:25PM)\nWalk back-Bris (12:25PM-12:35PM)\n\n\n[Lunch - Drive back to Albert Park (12:35PM-1:05PM)]\n\n[Afternoon]\nShallow Work and Eat Lunch (1:05PM-1:25PM)\nDeep Work (1:25PM-3:25PM)\nMeeting & Shallow Work Buffer (3:25PM-3:45PM)\n\n\n[Late Afternoon]\nShutdown (3:45PM-4PM)\nLog off (4PM)\n"
 
 
 
