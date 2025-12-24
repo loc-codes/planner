@@ -5,14 +5,32 @@ labels: ["daily-planner"]
 body:
   - type: markdown
     attributes:
-      value: "## Daily Planner"
+      value: "##Review\n**First, have you made a coffee?**\n\n**Second, have you reviewed:**\n- [Gmail](https://mail.google.com)\n- [DEPLOY BOARD](https://www.google.com)\n- [UMS BOARD](https://www.google.com)"
+
   - type: textarea
     attributes:
-      label: "Priorities"
-      description: "List your top priorities for the day."
-      placeholder: "1. Priority One\n2. Priority Two\n3. Priority Three"
+      label: "Top Tasks"
+      description: "What tasks can you accomplish today to meet your sprint goals?"
+      value: "- [ ] Goal 1\n    - [ ] Subgoal 1\n    - [ ] Subgoal 2\n- [ ] Goal 2"
+
   - type: textarea
     attributes:
-      label: "To-Do List"
-      description: "List all tasks that you need to complete today."
-      placeholder: "- [ ] Task 1\n- [ ] Task 2\n- [ ] Task 3"
+      label: "Secondary Tasks"
+      description: "After you complete your top tasks, begin working on these tasks"
+      value: "- [ ] Goal 3\n    - [ ] Subgoal 1\n    - [ ] Subgoal 2\n- [ ] Goal 4"
+
+  - type: textarea
+    attributes:
+      label: "Meetings Today"
+      description: "What meetings do you have today?"
+
+  - type: textarea
+    attributes:
+      label: "Lunch"
+      description: "What time are you taking lunch?"
+
+  - type: textarea
+    attributes:
+      label: "Plan Your Day"
+      description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
+      value: "Coffee/Tea 1\nGoal Block 1 (xx:xxAM to yy:yyAM)\nMenial Block 1 (xx:xxAM to yy:yyAM)\nStandup (xx:xxAM to yy:yyAM)\nCoffee/Tea 2 (xx:xxAM to yy:yyAM)\nGoal Block 2 (xx:xxAM to yy:yyPM)\nLunch (xx:xxPM to yy:yyPM)\nMenial Block 2 (xx:xxPM to yy:yyPM)\nGoal Block 3 (xx:xxPM to yy:yyPM)\nMenial Block 3 (xx:xxPM to yy:yyPM)\nShutdown (xx:xxPM to yy:yyPM)\nLog off (xx:xxPM to yy:yyPM)"
