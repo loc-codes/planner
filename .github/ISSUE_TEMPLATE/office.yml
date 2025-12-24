@@ -1,0 +1,36 @@
+name: Daily Planner Issue
+description: Template for daily planning.
+title: "[Date] - Daily Plan"
+labels: ["daily-planner"]
+body:
+  - type: markdown
+    attributes:
+      value: "##Review\n**First, have you made a coffee?**\n\n**Second, have you reviewed:**\n- [Gmail](https://mail.google.com)\n- [DEPLOY BOARD](https://www.google.com)\n- [UMS BOARD](https://www.google.com)"
+
+  - type: textarea
+    attributes:
+      label: "Top Tasks"
+      description: "What tasks can you accomplish today to meet your sprint goals?"
+      value: "- [ ] Goal 1\n    - [ ] Subgoal 1\n    - [ ] Subgoal 2\n- [ ] Goal 2"
+
+  - type: textarea
+    attributes:
+      label: "Secondary Tasks"
+      description: "After you complete your top tasks, begin working on these tasks"
+      value: "- [ ] Goal 3\n    - [ ] Subgoal 1\n    - [ ] Subgoal 2\n- [ ] Goal 4"
+
+  - type: textarea
+    attributes:
+      label: "Meetings Today"
+      description: "What meetings do you have today?"
+
+  - type: textarea
+    attributes:
+      label: "Lunch"
+      description: "What time are you taking lunch?"
+
+  - type: textarea
+    attributes:
+      label: "Plan Your Day"
+      description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
+      value: "-- Early Morning --\nPlanning (8AM to 8:10AM)\nDeep Work (8:10AM to 9:50AM)\nShallow Work (9:50AM to 10AM)\n------------------\n\n-- Mid Morning --\nStandup (10AM to 10:15AM)\nCoffee/Tea (10:15AM to 10:20AM)\nDeep Work (10:20AM to 12:20PM)\n------------------\n\n--\nLunch (12:20PM to 12:50PM)\n--\n\n-- Afternoon --\nShallow Work (12:50PM to 1PM)\nDeep Work (1PM to 3PM)\nMeeting & Shallow Work Buffer (3PM to 3:45PM)\n------------------\n\n-- Late Afternoon --\nShutdown (3:45PM to 4PM)\nLog off (4PM)\n--------------------"

@@ -30,7 +30,9 @@ body:
       description: "What time are you taking lunch?"
 
   - type: textarea
-    attributes:
-      label: "Plan Your Day"
-      description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
-      value: "Early Morning\nGoal Block 1 (8:15AM to 9:50AM)\nMenial Block 1 (9:50AM to 10AM)\n\n\nStandup (10AM to 10:15AM)\nCoffee/Tea 2 (10:15AM to 10:20AM)\nGoal Block 2 (10:20AM to 12:20PM)\n\n\nLunch (12:20PM to 12:50PM)\n\n\nMenial Block 2 (12:50PM to 1PM)\nGoal Block 3 (1PM to 3PM)\nMenial Block 3 (3PM to 3:45PM)\n\n\nShutdown (3:45PM to 4PM)\nLog off (4PM)"
+  attributes:
+    label: "Plan Your Day"
+    description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
+    value: "-- Early Morning --\nWalk-Gabee Coffee (7:45-7:50AM)\nPlanning (7:50AM to 8:00AM)\nDeep Work (8AM-9:40AM)\nShallow Work (9:40AM-9:50AM)\nWalk Home (9:50AM-10AM)\n------------------\n\n-- Mid Morning --\nStandup (10AM-10:30AM)\nZ5 Run (10:30AM - 11:10AM)\nWalk-Lavendar Cafe (11:10AM-11:15AM)\nDeep Work 2 (11:15AM - 12:45PM)\n------------------\n\n--\nLunch (12:45PM-1:05PM)\n--\n\n-- Afternoon --\nWalk-Albert Park Library (1:05PM-1:15PM)\nShallow Work 2 (1:15PM-1:25PM)\nDeep Work 3 (1:25PM-3:25PM)\nMeeting & Shallow Work Buffer (3:25PM-3:45PM)\n----------------\n\n-- Late Afternoon --\nShutdown (3:45PM-4PM)\nLog off (4PM)\n--------------------"
+
+
