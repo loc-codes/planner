@@ -43,7 +43,7 @@
                             .toLocaleDateString('en-GB', fullDateOptions)
                             .replace(/,/g, '');
 
-                        const title = `${formattedToday}: ${fullDateString}`;
+                        const title = fullDateString;
                         const encodedTitle = encodeURIComponent(title);
 
                         window.location.href =
