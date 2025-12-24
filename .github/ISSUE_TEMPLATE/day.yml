@@ -33,4 +33,4 @@ body:
     attributes:
       label: "Plan Your Day"
       description: "Schedule your day with blocks for tasks, coffee, meetings, etc."
-      value: "Coffee/Tea 1\nGoal Block 1 (-AM to -AM)\nMenial Block 1 (-AM to -AM)\n\n\nStandup (-AM to -AM)\nCoffee/Tea 2 (-AM to -AM)\nGoal Block 2 (-AM to -PM)\n\n\nLunch (-PM to -PM)\n\n\nMenial Block 2 (-PM to -PM)\nGoal Block 3 (-PM to -PM)\nMenial Block 3 (-PM to -PM)\n\n\nShutdown (-PM to -PM)\nLog off (-PM)"
+      value: "Early Morning\nGoal Block 1 (8:15AM to 9:50AM)\nMenial Block 1 (9:50AM to 10AM)\n\n\nStandup (10AM to 10:15AM)\nCoffee/Tea 2 (10:15AM to 10:20AM)\nGoal Block 2 (10:20AM to 12:20PM)\n\n\nLunch (12:20PM to 12:50PM)\n\n\nMenial Block 2 (12:50PM to 1PM)\nGoal Block 3 (1PM to 3PM)\nMenial Block 3 (3PM to 3:45PM)\n\n\nShutdown (3:45PM to 4PM)\nLog off (4PM)"
