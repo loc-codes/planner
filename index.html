@@ -16,11 +16,11 @@
                                    `${today.getFullYear()}`;
 
             // Pick template based on day
-            let template = 'office.yml';
+            let template = 'office.md';
             if (dayOfWeek === 2) {
-                template = 'tuesday.yml';
+                template = 'tuesday.md';
             } else if (dayOfWeek === 4) {
-                template = 'thursday.yml';
+                template = 'thursday.md';
             }
 
             fetch(`issue-titles.json?${Math.random()}`)
